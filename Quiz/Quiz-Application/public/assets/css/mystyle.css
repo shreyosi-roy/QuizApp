@@ -1,0 +1,120 @@
+#left-panel{
+    background-color: aqua;
+    height: 100%;
+    margin-top: 5%;
+
+
+}
+#right-panel{
+    background-color:aquamarine ;
+    height: 100%;
+    margin-top: 5%;
+
+}
+html, body {
+    height:100%;
+  }
+  #qz{
+    height: auto;
+    margin-top: 5px;
+    color: whitesmoke;
+    font-size: 18px;
+    text-align: center;
+  }
+.container{
+    height: 70%;
+    margin-top: 5px;
+    color: whitesmoke;
+    font-size: 18px;
+    text-align: center;
+}
+#l-img{
+    margin-top: 25%;
+    margin-bottom: 25%;
+}
+@media (min-width: 768px) {
+    .h-md-100 { height: 100vh; }
+}
+.btn-round { border-radius: 30px; }
+.bg-indigo { background: indigo; }
+.text-cyan { color: #35bdff; }
+
+.topnav {
+    background-color: indigo;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: whitesmoke;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: white;
+    color: indigo;
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+.btn{
+  background-color: #04AA6D!important;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 6px 18px;
+    margin: 10px;
+} 
+
+.delete{
+  background-color: #ff0000;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 6px 18px;
+    color: #ddd;
+} 
+
+.show{
+  background-color: #0f8a1f;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 6px 18px;
+    color: #ddd;
+
+}
+
+.edit{
+  background-color: #1900ff;
+    border-radius: 5px;
+    color: #ddd;
+
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 6px 18px;
+}
