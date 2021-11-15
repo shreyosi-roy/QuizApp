@@ -6,6 +6,7 @@ use App\Http\Controllers\Auth\RegistrationController;
 use App\Http\Controllers\QuizController;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\AnswerController;
 
 
 
@@ -41,6 +42,10 @@ Route::middleware('auth')->group(function(){
 Route::get('/dashboard',[DashboardController::class,'index']);
 
 Route::resource('quiz',QuizController::class)->middleware('admin');
+
+Route::get('answer',[AnswerController::class,'index']);
+
+Route::post('calculate',[AnswerController::class,'calculate']);
 
 
 });

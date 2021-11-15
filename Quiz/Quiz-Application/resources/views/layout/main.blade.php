@@ -17,9 +17,12 @@
 <body>
     <!-- top menu creation start  -->
     <div class="topnav">
-        <a class="active" href="/dashboard">HOME</a>
-        <a href="/quiz">CREATE NEW QUESTION</a>
-        <a href="/quiz">TAKE A QUIZ</a>
+        <a  href="/dashboard">HOME</a>
+        @if(session('user_type') == 1)
+
+<a href="/quiz">CREATE NEW QUESTION</a>
+@endif
+        <a href="/answer">TAKE A QUIZ</a>
         <a href="/logout" style="float: right;">LOGOUT</a>
     </div>
     <!-- top menu creation end  -->

@@ -18,8 +18,7 @@
     <!-- top menu creation start  -->
     <div class="topnav">
         <a  href="/dashboard">HOME</a>
-
-          @if(session('user_type') == 1)
+        @if(session('user_type') == 1)
 
         <a href="/quiz">CREATE NEW QUESTION</a>
         @endif

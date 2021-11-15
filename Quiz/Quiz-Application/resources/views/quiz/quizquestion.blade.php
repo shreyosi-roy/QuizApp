@@ -37,7 +37,8 @@
         <th>
 
             <a href="{{route('quiz.show',['quiz'=>$qz->id])}}" class="show">SHOW</a>
-
+            <br>
+            <br>
             <a href="{{route('quiz.edit',['quiz'=>$qz->id])}}" class="edit">EDIT</a>
             <br>
             <br>

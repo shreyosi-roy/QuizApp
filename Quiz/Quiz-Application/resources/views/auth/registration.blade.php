@@ -11,8 +11,6 @@
 
 <body>
 
-<!-- include flash msg -->
-@include('flash-message')
   <div class="d-md-flex h-md-100 align-items-center">
 
     <!-- left panel -->
